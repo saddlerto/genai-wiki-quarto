@@ -1,0 +1,17 @@
+---
+title: "{{< iconify bi:tools >}} Tools"
+author: "Trey Saddler"
+date: "2024-05-12"
+listing:
+  id: tools
+  contents: ./*
+  sort: "date desc"
+  type: table
+---
+
+## Introduction
+
+This page discusses various tools used to run and interact with generative AI models.
+
+::: {#tools}
+:::

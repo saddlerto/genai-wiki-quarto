@@ -1,19 +1,12 @@
-<h1 align="center">garden.errbufferoverfl.me</h1>
+<h1 align="center">GenAI Wiki</h1>
 
 <div align="center">
-  💻🔥🪤
+  <strong>A wiki built on <a href="https://quarto.org">Quarto.</a></strong>
 </div>
-<div align="center">
-  <strong>A digital garden built on <a href="https://quarto.org">Quarto.</a></strong>
-</div>
-<div align="center">
-  Digital garden, second brain.
-</div>
-<br/>
 
 <div align="center">
   <h3>
-    <a href="https://garden.errbufferoverfl.me">
+    <a href="https://saddlerto.github.io/genai-wiki-quarto">
       Website
     </a>
     <span> | </span>
@@ -24,15 +17,15 @@
 </div>
 
 <div align="center">
-  <img src="https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me/-/raw/hugo/screenshot.png" width="500"><br>
+  <!-- <img src="" width="500"><br> -->
   <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a><br>
-  <sub>The little experiment that could. Built with ❤︎ by
-  <a href="https://twitter.com/errbufferoverfl">errbufferoverfl</a>
+  <sub> Built with Obsidian and Quarto. Template by
+  <a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me">errbufferoverfl</a>
 </div>
 
 ## Introduction
 
-`garden.errbufferoverfl.me` is a digital garden filled to the brim with half finished notes about society, microfarming, and sometimes security engineering.
+This is a wiki about generative AI.
 
 ## Table of Contents
 
@@ -48,9 +41,9 @@
 
 ## Tech Stack
 
-Here's a brief high-level overview of the tech stack `garden.errbufferoverfl.me` uses:
+Here's a brief high-level overview of the tech stack this site uses:
 
-- [Quarto](https://quarto.org/docs/guide/) for mind-garden theming, and static website generation.
+- [Quarto](https://quarto.org/docs/guide/) for theming, and static website generation.
 - Content is managed using [Obsidian](https://obsidian.md/).
 - Deployed to Github Pages.
 
@@ -106,12 +99,12 @@ To resolve this issue:
 
 ## License
 
-Quarto is distributed under [GNU GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
+Quarto >v1.4 is distributed under [MIT](https://quarto.org/license.html) license.
 
-The content on garden.errbufferoverfl.me is licenced under [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en) (CC BY-SA 4.0), unless otherwise specified.
+The Quarto/Obsidian conversion scripts on GenAI Wiki are licensed under [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en) (CC BY-SA 4.0), unless otherwise specified.
 
 <!-- CONTACT -->
 
 ## Contact
 
-For issues relating to this repository and content hosted on [https://garden.errbufferoverfl.me](https://garden.errbufferoverfl.me) please raise a [GitLab issue](https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me/-/issues) and use the provided templates to ensure your issue is promptly addressed.
+For issues relating to this repository and content hosted on [the GenAI Wiki](https://saddlerto.github.io/genai-wiki-quarto) please raise a [GitHub issue](https://github.com/saddlerto/genai-wiki-quarto) and use the provided templates to ensure your issue is promptly addressed.

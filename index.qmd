@@ -1,38 +1,23 @@
 ---
-title: "errbufferoverfl"
-image: /imgs/profile.png
+title: "GenAI Wiki"
 about:
-  template: broadside
-  links:
-    - icon: cup
-      text: Ko-Fi
-      href: https://ko-fi.com/errbufferoverfl
-    - icon: mastodon
-      text: Mastodon
-      href: https://genericsocialmediapage.com/@errbufferoverfl
-    - icon: mastodon
-      text: Art Mastodon
-      href: https://mastodon.art/@errbufferoverfl
-    - icon: gitlab
-      text: GitLab
-      href: https://gitlab.com/errbufferoverfl
-    - icon: github
-      text: Github
-      href: https://github.com/errbufferoverfl
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/errbufferoverfl
+  template: jolla
 toc: false
 ---
 
-## anarchist, illustrator, reluctant security engineer
+## Introduction
 
-I'm an anarchist, gardener, knowledge librarian & artist at heart, but security engineer by trade. I currently live on the unceded land of the [Wadawurrung and Dja Dja Wurrung People](/notebook/wadawurrung-and-dja-dja-wurrung-people.md).
+Generative AI is a rapidly evolving field of artificial intelligence that focuses on creating new content, such as images, text, audio, and video, using machine learning algorithms. Unlike traditional AI systems that are designed to recognize patterns or make predictions based on existing data, generative AI aims to generate novel and original content that resembles human-created work.
 
-I'm passionate about social-anarchy, anti-capitalism & revolution; my main focuses are subsistence-farming, sustainable living, subverting surveillance capitalism, peer to peer technologies and a host of other things.
+At the core of generative AI are deep learning models, such as Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), and Transformers. These models learn from vast amounts of data to understand the underlying patterns and structures, allowing them to generate new content that adheres to the learned patterns while introducing unique variations.
 
-My favourite RFC is [RFC 7282](/engineering/consensus-and-humming-in-the-ietf.md) 🐝.
+Some of the most notable applications of generative AI include:
 
-This is my digital garden a space at the intersection of a notebook and a blog where I cultivate my thoughts in public. Inside, you'll find very few polished articles, but lots of free form, work in progress notes.
+- **Image Generation**: Models like StableDiffusion and DALL-E can create highly realistic images, digital art, and even manipulate existing images based on textual descriptions.
+- **Text Generation**: Language models such as GPT-4 and Llama-3 can generate human-like text, ranging from creative writing to technical articles and even code.
+- **Music and Audio Generation**: Generative AI can compose music, create realistic sound effects, and even clone voices.
+- **Video Generation**: Models like ... can generate short video clips based on textual prompts or other input data.
 
-A garden stands before you. Take a deep breath [and enter](/notebook/index.qmd).
+Generative AI has the potential to revolutionize various industries, including entertainment, gaming, design, and advertising. However, it also raises important questions about intellectual property rights, the role of human creativity, and the potential for misuse, such as creating [deepfakes](glossary/deepfakes.qmd) or spreading [disinformation](glossary/disinformation.qmd).
+
+As the field of generative AI continues to advance, it is crucial to explore its possibilities while also addressing the ethical and societal implications of this powerful technology.

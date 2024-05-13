@@ -1,0 +1,9 @@
+---
+title: "Metrics"
+author: "Trey Saddler"
+date: "2024-05-12"
+---
+
+## Introduction
+
+This page discusses various metrics used to evaluate the performance of a model.

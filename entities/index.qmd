@@ -1,0 +1,17 @@
+---
+title: "Entities"
+author: "Trey Saddler"
+date: "2024-05-12"
+listing:
+  id: "entities"
+  contents: ./*
+  sort: "date desc"
+  type: table
+---
+
+## Introduction
+
+This page discusses various entities related to generative AI. This include model developers, organizations, companies, individuals, etc.
+
+::: {#entities}
+:::

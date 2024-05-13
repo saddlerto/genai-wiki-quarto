@@ -1,0 +1,9 @@
+---
+title: "{{< iconify simple-icons:meta >}} Meta AI"
+date: "2024-05-12"
+date-modified: "2024-05-12"
+---
+
+## Introduction
+
+Meta AI is the research branch of Meta, the company formerly known as Facebook. Meta AI is responsible for developing AI technologies that power Meta's products and services. The team at Meta AI works on a wide range of AI-related projects, including natural language processing, computer vision, and reinforcement learning.

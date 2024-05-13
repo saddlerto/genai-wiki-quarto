@@ -1,0 +1,9 @@
+---
+title: "Data"
+author: "Trey Saddler"
+date: "2024-05-12"
+---
+
+## Introduction
+
+This page discusses various datasets used to train generative AI.

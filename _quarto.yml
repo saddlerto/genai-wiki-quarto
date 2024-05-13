@@ -14,16 +14,16 @@ execute:
 editor: visual
 
 website:
-  title: "errbufferoverfl, anarchist, illustrator, reluctant security engineer"
+  title: "GenAI Wiki"
   favicon: ""
-  site-url: https://garden.errbufferoverfl.me
-  description: "A garden of evolving ideas about society, microfarming, and sometimes security engineering."
+  site-url: https://saddlerto.github.io/genai-wiki-quarto
+  description: "A wiki about generative AI."
   twitter-card:
-    creator: "@errbufferoverfl"
-    site: "@errbufferoverfl"
+    creator: "@tosaddler"
+    site: "@tosaddler"
   open-graph: true
-  repo-url: https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me
-  issue-url: https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me/-/issues
+  repo-url: https://github.com/saddlerto/genai-wiki-quarto
+  issue-url: https://github.com/saddlerto/genai-wiki-quarto/issues
   repo-branch: hugo
   repo-actions:
     - edit
@@ -31,44 +31,34 @@ website:
     - issue
 
   navbar:
-    logo: "/imgs/logo.png"
-    logo-alt: "Illustration of a snail looking up."
-    logo-href: "/notebook/"
+    # logo: "/imgs/logo.png"
+    logo-alt: ""
+    logo-href: "https://saddlerto.github.io/genai-wiki-quarto"
     title: false
     right:
-      - text: The Notebook
-        href: /notebook/
-      - text: The Microfarm
-        href: /microfarm/
-      - text: The Art Studio
-        href: /art-studio/
-      - text: The Anti-Library
-        href: /antilibrary/
-      - text: The Engineering Anthology
-        href: /engineering/
-      - text: More
-        menu:
-          - text: The Toolbox
-            url: /toolbox/
-          - text: The Soapbox
-            url: /soapbox/
-          - text: The Back of the Book
-            url: bob.qmd
-          - text: About Me
-            url: index.qmd
-      - icon: rss
-        href: index.xml
+      - models/index.qmd
+      - text: "{{< iconify bi:tools >}} Tools"
+        href: /tools/
+      - text: Resources
+        href: /resources/
+      - text: Entities
+        href: /entities/
+      - text: Metrics
+        href: /metrics/
+      - text: Data
+        href: /data/
+      - text: Glossary
+        href: /glossary/
 
   page-footer:
     border: false
-    left: "Published with [Quarto](https://quarto.org/) v<?quarto.version?> | Hosted by [{{< iconify simple-icons gitlab >}}](https://pages.gitlab.com/)"
-    right: "© 2023 errbufferoverfl, Some Rights Reserved | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en)<br>[Ko-Fi](https://ko-fi.com/errbufferoverfl) | [Mastodon](https://genericsocialmediapage.com/@errbufferoverfl) | [Art Mastodon](https://mastodon
-    .art/@errbufferoverfl) | [GitLab](https://gitlab.com/errbufferoverfl) | [Github](https://github.com/errbufferoverfl) | [Twitter](https://twitter.com/errbufferoverfl)"
+    left: "Published with [Quarto](https://quarto.org/) v<?quarto.version?> | Hosted by [{{< iconify simple-icons github >}}](https://pages.github.com/)"
+    right: "© 2024 saddlerto, Some Rights Reserved | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en)<br>"
 
 format:
   html:
     lang: en
-    author-meta: errbufferoverfl
+    author-meta: Trey Saddler
     theme: 
       light: flatly
       dark: darkly
@@ -78,7 +68,7 @@ format:
     highlight-style: dracula
 
     toc: true
-    toc-title: Table of contents
+    toc-title: Table of Contents
     toc-location: right
 
     link-external-newwindow: true
