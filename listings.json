@@ -1,0 +1,14 @@
+[
+  {
+    "listing": "/entities/index.html",
+    "items": [
+      "/entities/meta-ai.html"
+    ]
+  },
+  {
+    "listing": "/tools/index.html",
+    "items": [
+      "/tools/promptfoo.html"
+    ]
+  }
+]
