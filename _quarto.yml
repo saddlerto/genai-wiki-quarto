@@ -34,21 +34,15 @@ website:
     # logo: "/imgs/logo.png"
     logo-alt: ""
     logo-href: "https://saddlerto.github.io/genai-wiki-quarto"
-    title: false
+    title: "GenAI Wiki"
     right:
       - models/index.qmd
-      - text: "{{< iconify bi:tools >}} Tools"
-        href: /tools/
-      - text: Resources
-        href: /resources/
-      - text: Entities
-        href: /entities/
-      - text: Metrics
-        href: /metrics/
-      - text: Data
-        href: /data/
-      - text: Glossary
-        href: /glossary/
+      - tools/index.qmd
+      - resources/index.qmd
+      - entities/index.qmd
+      - metrics/index.qmd
+      - data/index.qmd
+      - glossary/index.qmd
 
   page-footer:
     border: false
@@ -59,13 +53,10 @@ format:
   html:
     lang: en
     author-meta: Trey Saddler
-    theme: 
-      light: flatly
-      dark: darkly
+    theme: cerulean
     css: 
       - styles.css
-    include-in-header: "csp.html"
-    highlight-style: dracula
+    # highlight-style: dracula
 
     toc: true
     toc-title: Table of Contents
@@ -88,5 +79,9 @@ format:
     callout-appearance: simple
     email-obfuscation: javascript
     
+resources:
+  - "assets/*"
+
 filters:
   - quarto-version.lua
+  - shinylive

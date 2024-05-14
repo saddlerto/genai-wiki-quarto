@@ -1,12 +1,15 @@
 ---
 title: "{{< iconify bi:tools >}} Tools"
-author: "Trey Saddler"
+# author: "Trey Saddler"
 date: "2024-05-12"
+date-modified: "2024-05-13"
 listing:
   id: tools
   contents: ./*
   sort: "date desc"
   type: table
+  field-display-names:
+    title: "Tool"
 ---
 
 ## Introduction

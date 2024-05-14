@@ -1,6 +1,6 @@
 ---
-title: "Glossary"
-author: "Trey Saddler"
+title: "{{< iconify material-symbols:dictionary-outline-sharp >}} Glossary"
+# author: "Trey Saddler"
 date: "2024-05-12"
 ---
 

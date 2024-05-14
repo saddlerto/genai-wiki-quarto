@@ -1,0 +1,21 @@
+---
+title: "LMSYS Leaderboard"
+format:
+  html:
+    code-fold: true
+execute:
+  echo: false
+---
+
+```{ojs}
+import { aq, op } from '@uwdata/arquero'
+```
+
+```{ojs}
+lb = aq.loadCSV("../assets/leaderboard_table_20240508.csv")
+elo = aq.loadCSV("../assets/elo_mle_ratings_20240508.csv")
+```
+
+```{ojs}
+lb.join(elo, ['key', 'Model']).view()
+```

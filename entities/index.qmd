@@ -1,12 +1,15 @@
 ---
-title: "Entities"
-author: "Trey Saddler"
+title: "{{< iconify iconoir:developer >}}AI Developers"
+# author: "Trey Saddler"
 date: "2024-05-12"
+date-modified: "2024-05-13"
 listing:
   id: "entities"
   contents: ./*
   sort: "date desc"
   type: table
+  field-display-names:
+    title: "Developer"
 ---
 
 ## Introduction

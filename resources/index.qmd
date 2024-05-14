@@ -1,8 +1,8 @@
 ---
-title: "Resources"
+title: "{{< iconify grommet-icons:resources >}} Resources"
 # author: "Trey Saddler"
 date: "2024-05-12"
-date-modified: "2024-05-12"
+date-modified: "2024-05-13"
 ---
 
 ## Introduction
